@@ -57,6 +57,8 @@ Click the image to chat with MiniGPT-4 around your images
 ## MediSync Examples
 
 ![MediSync demo examples](figs/figs_1.png)
+![MediSync demo examples](figs/fig2_medisync.png)
+![MediSync demo examples](medisync_fig3.png)
 
 
 <!-- 
@@ -132,9 +134,9 @@ in [eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10) at Lin
 
 ### Launching Demo Locally
 
-For MiniGPT-v2, run
+For MediSync, run
 ```
-python demo_v2.py --cfg-path eval_configs/minigptv2_eval.yaml  --gpu-id 0
+python demo_medisync.py --cfg-path eval_configs/minigptv2_eval.yaml  --gpu-id 0
 ```
 <!-- 
 For MiniGPT-4 (Vicuna version), run
