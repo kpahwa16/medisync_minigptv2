@@ -1,4 +1,4 @@
-# MiniGPT-V
+# MediSync
 
 <font size='5'>**MediSync: Unified Model for VQA, Report Generation & Disease Detection**</font>
 
@@ -58,7 +58,7 @@ Click the image to chat with MiniGPT-4 around your images
 
 ![MediSync demo examples](figs/figs_1.png)
 ![MediSync demo examples](figs/fig2_medisync.png)
-![MediSync demo examples](medisync_fig3.png)
+![MediSync demo examples](figs/medisync_fig3.png)
 
 
 <!-- 
