@@ -1,0 +1,6 @@
+datasets:
+  slake_grounded_caption:
+    data_type: images
+    build_info:
+      image_path: /home/kp66/khushbu/SLAKE/imgs/
+      ann_path: /home/kp66/khushbu/SLAKE/SLAKE_grounding_train.json

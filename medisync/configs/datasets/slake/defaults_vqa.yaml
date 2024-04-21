@@ -1,0 +1,7 @@
+
+datasets:
+  slake_vqa:
+    data_type: images
+
+    build_info:
+      storage: /home/kp66/khushbu/SLAKE/
