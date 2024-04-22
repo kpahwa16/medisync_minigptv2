@@ -102,34 +102,27 @@ Then, set the variable *llama_model* in the model config file to the LLM weight 
 * For MiniGPT-v2, set the LLM path 
 [here](medisync/configs/models/minigpt_v2.yaml#L15) at Line 14.
 
-* For MiniGPT-4 (Llama2), set the LLM path 
-[here](medisync/configs/models/minigpt4_llama2.yaml#L15) at Line 15.
 
-* For MiniGPT-4 (Vicuna), set the LLM path 
-[here](medisync/configs/models/minigpt4_vicuna0.yaml#L18) at Line 18
+**3. Prepare the pretrained model checkpoints for MiniGPT-v2**
 
-**3. Prepare the pretrained model checkpoints**
+Download the pretrained model checkpoint for finetuning
 
-Download the pretrained model checkpoints
-
-
-| MiniGPT-v2 (after stage-2) | MiniGPT-v2 (after stage-3) | MiniGPT-v2 (online developing demo)| 
-|------------------------------|------------------------------|------------------------------|
-| [Download](https://drive.google.com/file/d/1Vi_E7ZtZXRAQcyz4f8E6LtLh2UXABCmu/view?usp=sharing) |[Download](https://drive.google.com/file/d/1HkoUUrjzFGn33cSiUkI-KcT-zysCynAz/view?usp=sharing) | [Download](https://drive.google.com/file/d/1aVbfW7nkCSYx99_vCRyP1sOlQiWVSnAl/view?usp=sharing) |
-
+MiniGPT-v2 (after stage-3) 
+[Download](https://drive.google.com/file/d/1HkoUUrjzFGn33cSiUkI-KcT-zysCynAz/view?usp=sharing) 
 
 For **MiniGPT-v2**, set the path to the pretrained checkpoint in the evaluation config file 
 in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8.
 
 
-
+Checkpoints for MediSync can be downloaded here.
+[Download](https://drive.google.com/file/d/1qvaBuFf_pKlYY9_sT6LogGnKApdI6Xsp/view?usp=sharing)
+<!-- 
 | MiniGPT-4 (Vicuna 13B) | MiniGPT-4 (Vicuna 7B) | MiniGPT-4 (LLaMA-2 Chat 7B) |
 |----------------------------|---------------------------|---------------------------------|
-| [Download](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link) | [Download](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing) | [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing) |
-
+| [Download](https://drive.google.com/file/d/1a4zLvaiDBr-36pasffmgpvH5P7CKmpze/view?usp=share_link) | [Download](https://drive.google.com/file/d/1RY9jV0dyqLX-o38LrumkKRh6Jtaop58R/view?usp=sharing) | [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing) | -->
+<!-- 
 For **MiniGPT-4**, set the path to the pretrained checkpoint in the evaluation config file 
-in [eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10) at Line 8 for Vicuna version or [eval_configs/minigpt4_llama2_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#L10) for LLama2 version.   
-
+in [eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L10) at Line 8 for Vicuna version or [eval_configs/minigpt4_llama2_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#L10) for LLama2 version.    -->
 
 
 ### Launching Demo Locally
