@@ -114,6 +114,7 @@ For **MiniGPT-v2**, set the path to the pretrained checkpoint in the evaluation 
 in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8.
 
 **3. Download the checkpoints for MediSync for demo and evaluation**
+
 Checkpoints for MediSync can be downloaded here.
 [Download](https://drive.google.com/file/d/1qvaBuFf_pKlYY9_sT6LogGnKApdI6Xsp/view?usp=sharing)
 <!-- 
