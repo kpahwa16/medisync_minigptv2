@@ -9,12 +9,12 @@ import logging
 import torch
 from omegaconf import OmegaConf
 
-from minigpt4.common.registry import registry
-from minigpt4.models.base_model import BaseModel
-from minigpt4.models.minigpt_base import MiniGPTBase
-from minigpt4.models.minigpt4 import MiniGPT4
-from minigpt4.models.minigpt_v2 import MiniGPTv2
-from minigpt4.processors.base_processor import BaseProcessor
+from medisync.common.registry import registry
+from medisync.models.base_model import BaseModel
+from medisync.models.minigpt_base import MiniGPTBase
+from medisync.models.minigpt4 import MiniGPT4
+from medisync.models.minigpt_v2 import MiniGPTv2
+from medisync.processors.base_processor import BaseProcessor
 
 
 __all__ = [

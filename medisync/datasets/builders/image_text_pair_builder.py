@@ -2,17 +2,17 @@ import os
 import logging
 import warnings
 
-from minigpt4.common.registry import registry
-from minigpt4.datasets.builders.base_dataset_builder import BaseDatasetBuilder
-from minigpt4.datasets.datasets.openi_caption import OPENICapDataset
-from minigpt4.datasets.datasets.mimic_caption import MIMICCapDataset
-from minigpt4.datasets.datasets.roco_rad_caption import ROCORADCapDataset
-from minigpt4.datasets.datasets.roco_nonrad_caption import ROCONONRADCapDataset
-from minigpt4.datasets.datasets.vqarad_dataset import VQARADDataset
-from minigpt4.datasets.datasets.pmc_vqa import PMCVQADataset
-from minigpt4.datasets.datasets.pmc_caption import PMCCapDataset
-from minigpt4.datasets.datasets.slake import SLAKEGroundedDetailDataset
-from minigpt4.datasets.datasets.slake_vqa import SLAKEVQADataset
+from medisync.common.registry import registry
+from medisync.datasets.builders.base_dataset_builder import BaseDatasetBuilder
+from medisync.datasets.datasets.openi_caption import OPENICapDataset
+from medisync.datasets.datasets.mimic_caption import MIMICCapDataset
+from medisync.datasets.datasets.roco_rad_caption import ROCORADCapDataset
+from medisync.datasets.datasets.roco_nonrad_caption import ROCONONRADCapDataset
+from medisync.datasets.datasets.vqarad_dataset import VQARADDataset
+from medisync.datasets.datasets.pmc_vqa import PMCVQADataset
+from medisync.datasets.datasets.pmc_caption import PMCCapDataset
+from medisync.datasets.datasets.slake import SLAKEGroundedDetailDataset
+from medisync.datasets.datasets.slake_vqa import SLAKEVQADataset
 
 @registry.register_builder("pmc_caption")
 class PMCCapBuilder(BaseDatasetBuilder):

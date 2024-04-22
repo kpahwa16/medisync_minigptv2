@@ -1,6 +1,6 @@
 
-from minigpt4.datasets.builders.base_dataset_builder import load_dataset_config
-from minigpt4.datasets.builders.image_text_pair_builder import (
+from medisync.datasets.builders.base_dataset_builder import load_dataset_config
+from medisync.datasets.builders.image_text_pair_builder import (
     PMCCapBuilder,
     PMCVQABuilder,
     VQARADBuilder,
@@ -12,7 +12,7 @@ from minigpt4.datasets.builders.image_text_pair_builder import (
     OpenIBuilder
 
 )
-from minigpt4.common.registry import registry
+from medisync.common.registry import registry
 
 __all__ = [
     "PMCCapBuilder",
