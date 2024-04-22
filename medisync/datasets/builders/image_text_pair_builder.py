@@ -18,7 +18,7 @@ from medisync.datasets.datasets.slake_vqa import SLAKEVQADataset
 class PMCCapBuilder(BaseDatasetBuilder):
     train_dataset_cls = PMCCapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/pmc/caption.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/medisyncMed/medisync/configs/datasets/pmc/caption.yaml"}
 
     def _download_ann(self):
         pass
@@ -54,7 +54,7 @@ class PMCCapBuilder(BaseDatasetBuilder):
 class MIMICBuilder(BaseDatasetBuilder):
     train_dataset_cls = MIMICCapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/mimic/defaults.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/mimic/defaults.yaml"}
 
     def _download_ann(self):
         # Implement downloading logic if necessary
@@ -94,7 +94,7 @@ class MIMICBuilder(BaseDatasetBuilder):
 class OpenIBuilder(BaseDatasetBuilder):
     train_dataset_cls = OPENICapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/openi/defaults.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/openi/defaults.yaml"}
 
     def _download_ann(self):
         # Implement downloading logic if necessary
@@ -134,7 +134,7 @@ class OpenIBuilder(BaseDatasetBuilder):
 class ROCORADCapBuilder(BaseDatasetBuilder):
     train_dataset_cls = ROCORADCapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/rocorad_caption/caption.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/rocorad_caption/caption.yaml"}
 
     def _download_ann(self):
         pass
@@ -174,7 +174,7 @@ class ROCORADCapBuilder(BaseDatasetBuilder):
 class ROCONONRADCapBuilder(BaseDatasetBuilder):
     train_dataset_cls = ROCONONRADCapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/rocononrad_caption/caption.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/rocononrad_caption/caption.yaml"}
 
     def _download_ann(self):
         pass
@@ -212,7 +212,7 @@ class ROCONONRADCapBuilder(BaseDatasetBuilder):
 class PMCVQABuilder(BaseDatasetBuilder):
     train_dataset_cls = PMCVQADataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/pmc/defaults_vqa.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/pmc/defaults_vqa.yaml"}
 
     def _download_ann(self):
         pass
@@ -246,7 +246,7 @@ class PMCVQABuilder(BaseDatasetBuilder):
 class SLAKEVQABuilder(BaseDatasetBuilder):
     train_dataset_cls = SLAKEVQADataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/slake/defaults_vqa.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/slake/defaults_vqa.yaml"}
 
     def _download_ann(self):
         pass
@@ -285,7 +285,7 @@ class SLAKEVQABuilder(BaseDatasetBuilder):
 class VQARADBuilder(BaseDatasetBuilder):
     train_dataset_cls = VQARADDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/vqa_rad/caption.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/vqa_rad/caption.yaml"}
 
     def _download_ann(self):
         pass
@@ -319,7 +319,7 @@ class VQARADBuilder(BaseDatasetBuilder):
 class SLAKEGroundedCaptionBuilder(BaseDatasetBuilder):
     train_dataset_cls = SLAKEGroundedDetailDataset
     DATASET_CONFIG_DICT = {
-        "default": "/home/kp66/khushbu/minigpt4Med/minigpt4/configs/datasets/slake/default.yaml",
+        "default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/slake/default.yaml",
     }
 
     def build_datasets(self):

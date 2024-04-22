@@ -2,7 +2,7 @@ import os
 import json
 import random
 from PIL import Image
-from minigpt4.datasets.datasets.vqa_datasets import VQADataset, VQAEvalDataset
+from medisync.datasets.datasets.vqa_datasets import VQADataset, VQAEvalDataset
 from collections import OrderedDict
 import logging
 

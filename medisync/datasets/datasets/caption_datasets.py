@@ -8,7 +8,7 @@
 import os
 from collections import OrderedDict
 
-from minigpt4.datasets.datasets.base_dataset import BaseDataset
+from medisync.datasets.datasets.base_dataset import BaseDataset
 from PIL import Image
 import random
 
