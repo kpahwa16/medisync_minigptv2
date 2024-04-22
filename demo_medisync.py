@@ -585,7 +585,7 @@ with gr.Blocks() as demo:
             gr.Examples(examples=[
                 ["/home/kp66/medisync_minigptv2/examples_medisync/157_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag,
                  img_list],
-                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_63_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag, img_list],
+                ["/home/kp66/medisync_minigptv2/examples_medisync/534_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag, img_list],
                 ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_224_source.jpg", "[vqa] Which is the biggest in this image, spleen,lung, or liver?", upload_flag, replace_flag,
                  img_list],
                 ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_305_source.jpg", "[vqa]How was this image taken?", upload_flag,
