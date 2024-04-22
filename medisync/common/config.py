@@ -1,9 +1,4 @@
-"""
- Copyright (c) 2022, salesforce.com, inc.
- All rights reserved.
- SPDX-License-Identifier: BSD-3-Clause
- For full license text, see the LICENSE_Lavis file in the repo root or https://opensource.org/licenses/BSD-3-Clause
-"""
+
 
 import logging
 import json
@@ -29,6 +24,7 @@ class Config:
         runner_config = self.build_runner_config(config)
         model_config = self.build_model_config(config, **user_config)
         dataset_config = self.build_dataset_config(config)
+        print("dataset_config:", dataset_config)
         evaluation_dataset_config = self.build_evaluation_dataset_config(config)
 
         # Validate the user-provided runner configuration
@@ -97,11 +93,15 @@ class Config:
 
         for dataset_name in datasets:
             builder_cls = registry.get_builder_class(dataset_name)
-
+            print("builder_cls", builder_cls)
             dataset_config_type = datasets[dataset_name].get("type", "default")
+            print("dataset_name:", dataset_name)
+            print("dataset_config_type:", dataset_config_type)
+            
             dataset_config_path = builder_cls.default_config_path(
                 type=dataset_config_type
             )
+        
 
             # hierarchy override, customized config > default config
             dataset_config = OmegaConf.merge(

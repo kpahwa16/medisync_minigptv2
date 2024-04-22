@@ -18,7 +18,7 @@ from medisync.datasets.datasets.slake_vqa import SLAKEVQADataset
 class PMCCapBuilder(BaseDatasetBuilder):
     train_dataset_cls = PMCCapDataset
 
-    DATASET_CONFIG_DICT = {"default": "/home/kp66/khushbu/medisyncMed/medisync/configs/datasets/pmc/caption.yaml"}
+    DATASET_CONFIG_DICT = {"default": "/home/kp66/medisync_minigptv2/medisync/configs/datasets/pmc/caption.yaml"}
 
     def _download_ann(self):
         pass

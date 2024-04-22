@@ -583,22 +583,22 @@ with gr.Blocks() as demo:
     with gr.Row():
         with gr.Column():
             gr.Examples(examples=[
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/157_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag,
+                ["/home/kp66/medisync_minigptv2/examples_medisync/157_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag,
                  img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_63_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag, img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_224_source.jpg", "[vqa] Which is the biggest in this image, spleen,lung, or liver?", upload_flag, replace_flag,
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_63_source.jpg", "[grounding] describe this image in detail", upload_flag, replace_flag, img_list],
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_224_source.jpg", "[vqa] Which is the biggest in this image, spleen,lung, or liver?", upload_flag, replace_flag,
                  img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_305_source.jpg", "[vqa]How was this image taken?", upload_flag,
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_305_source.jpg", "[vqa]How was this image taken?", upload_flag,
                  replace_flag, img_list],
             ], inputs=[image, text_input, upload_flag, replace_flag, img_list], fn=example_trigger,
                 outputs=[upload_flag, replace_flag])
         with gr.Column():
             gr.Examples(examples=[
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_147_source.jpg", "[vqa] Where is/are the abnormalities located?",
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_147_source.jpg", "[vqa] Where is/are the abnormalities located?",
                  upload_flag, replace_flag, img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_195_source.jpg", "briefly describe the key findings and conclusion from this chest x-ray image", upload_flag, replace_flag, img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmab_185_source.jpg", "[vqa] Does this image look abnormal?", upload_flag, replace_flag, img_list],
-                ["/home/kp66/khushbu/minigpt4Med/examples_medisync/xmlab_208_source.jpg", "[vqa] What is the scanning plane of this image?", upload_flag,
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_195_source.jpg", "briefly describe the key findings and conclusion from this chest x-ray image", upload_flag, replace_flag, img_list],
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmab_185_source.jpg", "[vqa] Does this image look abnormal?", upload_flag, replace_flag, img_list],
+                ["/home/kp66/medisync_minigptv2/examples_medisync/xmlab_208_source.jpg", "[vqa] What is the scanning plane of this image?", upload_flag,
                  replace_flag, img_list],
             ], inputs=[image, text_input, upload_flag, replace_flag, img_list], fn=example_trigger,
                 outputs=[upload_flag, replace_flag])

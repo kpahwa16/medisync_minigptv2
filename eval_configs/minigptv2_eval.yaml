@@ -5,7 +5,7 @@ model:
   end_sym: "</s>"
   low_resource: False
   prompt_template: '[INST] {} [/INST]'
-  ckpt: /home/kp66/khushbu/minigpt4Med/save_ckpt/20240419232/checkpoint_99.pth
+  ckpt: /home/kp66/khushbu/save_ckpt/20240419232/checkpoint_99.pth
   lora_r: 64
   lora_alpha: 16
 
@@ -38,7 +38,7 @@ datasets:
       train:
         name: "blip_caption"
 
-  vqa_rad:    
+  vqarad:    
     vis_processor:
       train:
         name: "blip2_image_train"
