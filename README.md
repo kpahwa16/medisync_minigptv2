@@ -110,13 +110,18 @@ Download the pretrained model checkpoint for finetuning
 MiniGPT-v2 (after stage-3) 
 [Download](https://drive.google.com/file/d/1HkoUUrjzFGn33cSiUkI-KcT-zysCynAz/view?usp=sharing) 
 
-For **MiniGPT-v2**, set the path to the pretrained checkpoint in the evaluation config file 
-in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8.
+<!-- For **MiniGPT-v2**, set the path to the pretrained checkpoint in the evaluation config file 
+in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml#L10) at Line 8. -->
 
 **3. Download the checkpoints for MediSync for demo and evaluation**
 
 Checkpoints for MediSync can be downloaded here.
 [Download](https://drive.google.com/file/d/1qvaBuFf_pKlYY9_sT6LogGnKApdI6Xsp/view?usp=sharing)
+
+For **MediSync**, set the path to the pretrained checkpoint in the evaluation config file 
+in [eval_configs/minigptv2_eval.yaml](eval_configs/minigptv2_eval.yaml) at Line 8.
+
+
 <!-- 
 | MiniGPT-4 (Vicuna 13B) | MiniGPT-4 (Vicuna 7B) | MiniGPT-4 (LLaMA-2 Chat 7B) |
 |----------------------------|---------------------------|---------------------------------|
